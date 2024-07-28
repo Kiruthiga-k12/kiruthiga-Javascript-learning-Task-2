@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Select your course </div>
+        <div class="box">
+            <label for="" class="option1">
+                <input type="radio" name="course">
+                <div class="text">Artificial intelligence</div>
+            </label>
+            <label for="" class="option2">
+                <input type="radio" name="course">
+                <div class="text">Cybersecurity</div>
+            </label>
+            <label for="" class="option3">
+                <input type="radio" name="course">
+                <div class="text">Computer Science</div>
+            </label>
+            <label for="" class="option4">
+                <input type="radio" name="course">
+                <div class="text">Devops</div>
+            </label>
+
+            <label for="" class="option5">
+                <input type="radio" name="course">
+                <div class="text">cloud computing</div>
+            </label>
+        </div>
+    </div>
+</div>
+<div class="wrapper1">
+    <div class="title1">Choose you favourites </div>
+    <div class="box1">
+        <label for="" class="choice1">
+            <input type="checkbox" name="course">
+            <div class="text">youtube</div>
+        </label>
+        <label for="" class="choice2">
+            <input type="checkbox" name="course">
+            <div class="text">Pininterst</div>
+        </label>
+        <label for="" class="checkbox">
+            <input type="checkbox" name="course">
+            <div class="text">Facebook</div>
+        </label>
+        <label for="" class="checkbox">
+            <input type="checkbox" name="course">
+            <div class="text">Instagram</div>
+        </label>
+
+        
+    </div>
+</div>
+</div>
+<label for="color">Select a color:</label>
+<select name="color" id="colours">
+  <option value="black">Black</option>
+  <option value="red">Red</option>
+  <option value="blue">Blue</option>
+  <option value="white" >white</option>
+</select>
+
+<div class="marqueetext">
+    <marquee behavior="" direction="left">
+        <h3>This is kiruthiga ! Today I tried something 
+            new in creating buttons and checkboxes.I have learned newly today
+            "Have a Nice day!"
+        </h3>
+    </marquee>
+    </div>
+
+    <button id="scroll-to-top">Back to Top</button>
+
+
+
+
+<script>
+    const scrollToTopButton = document.getElementById('scroll-to-top');
+
+scrollToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+
+
+</script>
+    
+</body>
+</html>
